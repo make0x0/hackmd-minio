@@ -1,0 +1,26 @@
+{
+    "production": {
+        "allowAnonymous": false,
+        "allowAnonymousEdits": false,
+        "defaultpermission": "private",
+        "urlAddPort": true,
+        "email": true,
+        "db": {
+            "username": "hackmd",
+            "password": "hackmdpass",
+            "database": "hackmd",
+            "host": "database",
+            "port": "5432",
+            "dialect": "postgres"
+        },
+        "imageUploadType": "filesystem",
+        "minio": {
+            "accessKey": "minioaccess",
+            "secretKey": "miniosecret",
+            "endPoint": "minio",
+            "port": 9000,
+            "secure": false
+        },
+        "s3bucket": "hackmd"
+    }    
+}
